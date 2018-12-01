@@ -1,0 +1,58 @@
+<style>
+	#hoogle_header_main {
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		background:white;
+		height:3em;
+		border-radius:0px;
+		text-align:right;
+		border-bottom:lightgray 1px solid;
+	}
+	#profile_pic{
+		width:2em;
+		height:2em;
+		border-radius:100%;
+		padding:0.5em;
+		transition:0.3s;
+		margin-right:0.5em;
+	}
+	#profile_pic:hover {
+		transform:scale(1.1);
+		cursor:pointer;
+	}
+	#apps {
+		padding:0.2em;
+		margin:0.5em;
+		margin-bottom:1em;
+		transition:0.3s;
+		border-radius:100%;
+		font-size:1.7em;
+		position:relative;
+		bottom:0.4em;
+	}
+	
+	#apps:hover {
+		cursor:pointer;
+		background:rgba(200,200,200,10);
+	}
+	
+	#hoogle_logo {
+		position:absolute;
+		transform:scale(1.3);
+		top:0.6em;
+		left:1em;
+		background:none;
+	}
+	
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<header id="hoogle_header_main">
+	<img id="hoogle_profile_picture_main" src="http://localhost/hoogle/assets/hoogle-logo.svg" id="hoogle_logo">
+	<a class="material-icons" id="apps">apps</a>
+	<img src="http://localhost/hoogle/get_user_data/profile_picture.php"id="profile_pic">
+	<div id="apps-container">
+		
+	</div>
+</header>

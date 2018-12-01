@@ -1,0 +1,5 @@
+{
+	"permissions":"r,w",
+	"action":"http://localhost/hoogle/apps/schoolboard/createuser.php",
+	"name":"Schoolboard"
+}
