@@ -1,7 +1,7 @@
 <?php
 require_once("vendor/autoload.php");
 use \Firebase\JWT\JWT;
-define("SECRET_KEY","kX0EAx5TIX78GyHfrGJycS0BlrOgB_3NoSlZjsqK");
+define("SECRET_KEY","<SECRET_ENCRYPTION_KEY>");
 define("ALGORITHM","HS512");
 
 $token = htmlspecialchars(stripslashes(trim($_GET["token"])));
